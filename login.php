@@ -1,6 +1,6 @@
 <?php
    session_start();
-   include "koneksi.php";
+   include "koneksi.php"; // include koneksi db_sekolah untuk username dan password dari table pengguna
 ?>
 
 <!DOCTYPE html>
@@ -82,10 +82,7 @@
              <div class="box-footer text-center">
                 <a href="index.php">Halaman Utama</a>
              </div>
-
-           
         </div>
-
       </div>
 </body>
 </html>

@@ -40,7 +40,7 @@
 
                        //print_r($_FILES['gambar']);
 
-                       $judul  = addslashes(ucwords($_POST['judul']));
+                       $judul  = addslashes(ucwords($_POST['judul'])); // untuk menambahka
                        $ket  = addslashes($_POST['keterangan']);
 
                        $filename = $_FILES['gambar']['name'];

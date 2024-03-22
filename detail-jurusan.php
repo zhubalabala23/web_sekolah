@@ -9,7 +9,7 @@
             echo "<script>window.location='index.php'</script>";
         }
       
-        $p        = mysqli_fetch_object($jurusan);
+        $p = mysqli_fetch_object($jurusan);
       ?>
     
       <h3 class="text-center"><?= $p->nama ?></h3>
