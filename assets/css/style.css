@@ -47,7 +47,6 @@ a {
 .box {
     border: 1px #ddd;
     background-color: #ffff; 
-    border-radius: 25%;
 }
 
 .box-header {
@@ -55,7 +54,6 @@ a {
     padding: 16px;
     border-bottom:1px solid #ddd;
     background-color: #f2f2f2;
-    border-radius: 25%;
 }
 
 .box-body {
@@ -69,7 +67,6 @@ a {
     padding: 16px;
     background-color: #f2f2f2;
     border-top: 1px solid #ddd;
-    border-radius: 25%;
 }
 
 form {
